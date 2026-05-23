@@ -1,0 +1,16 @@
+{
+  "deal_type": "rent",
+  "rooms": [
+    "3+kk"
+  ],
+  "price_min": 0,
+  "price_max": 25000,
+  "districts": [],
+  "max_metro_m": 0,
+  "furnished": null,
+  "pets": null,
+  "balcony": true,
+  "check_interval": 1800,
+  "active": true,
+  "lang": "uk"
+}

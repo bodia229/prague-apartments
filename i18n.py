@@ -1,0 +1,222 @@
+LANGS = {
+    "en": "🇬🇧 English",
+    "ru": "🇷🇺 Русский",
+    "uk": "🇺🇦 Українська",
+    "cs": "🇨🇿 Čeština",
+    "de": "🇩🇪 Deutsch",
+    "pl": "🇵🇱 Polski",
+    "sk": "🇸🇰 Slovenčina",
+    "es": "🇪🇸 Español",
+}
+
+_S = {
+    # ── welcome / language ───────────────────────────────────
+    "choose_lang": {
+        "en": "🌍 <b>Choose your language:</b>",
+        "ru": "🌍 <b>Выберите язык:</b>",
+        "uk": "🌍 <b>Оберіть мову:</b>",
+        "cs": "🌍 <b>Vyberte jazyk:</b>",
+        "de": "🌍 <b>Sprache wählen:</b>",
+        "pl": "🌍 <b>Wybierz język:</b>",
+        "sk": "🌍 <b>Vyberte jazyk:</b>",
+        "es": "🌍 <b>Elige tu idioma:</b>",
+    },
+    "welcome": {
+        "en": "🏠 <b>Prague Apartment Monitor</b>\n\nSet your criteria and start monitoring.",
+        "ru": "🏠 <b>Prague Apartment Monitor</b>\n\nНастройте критерии и запустите мониторинг.",
+        "uk": "🏠 <b>Prague Apartment Monitor</b>\n\nНалаштуй критерії і запусти моніторинг.",
+        "cs": "🏠 <b>Prague Apartment Monitor</b>\n\nNastavte kritéria a spusťte monitoring.",
+        "de": "🏠 <b>Prague Apartment Monitor</b>\n\nKriterien festlegen und Monitoring starten.",
+        "pl": "🏠 <b>Prague Apartment Monitor</b>\n\nUstaw kryteria i uruchom monitoring.",
+        "sk": "🏠 <b>Prague Apartment Monitor</b>\n\nNastavte kritériá a spustite monitoring.",
+        "es": "🏠 <b>Prague Apartment Monitor</b>\n\nEstablece tus criterios e inicia el monitoreo.",
+    },
+    "menu_title": {
+        "en": "⚙️ <b>Search settings</b>",
+        "ru": "⚙️ <b>Настройки поиска</b>",
+        "uk": "⚙️ <b>Налаштування пошуку</b>",
+        "cs": "⚙️ <b>Nastavení hledání</b>",
+        "de": "⚙️ <b>Sucheinstellungen</b>",
+        "pl": "⚙️ <b>Ustawienia wyszukiwania</b>",
+        "sk": "⚙️ <b>Nastavenia vyhľadávania</b>",
+        "es": "⚙️ <b>Configuración de búsqueda</b>",
+    },
+    # ── status ───────────────────────────────────────────────
+    "active": {
+        "en": "Active", "ru": "Активен", "uk": "Активний",
+        "cs": "Aktivní", "de": "Aktiv", "pl": "Aktywny",
+        "sk": "Aktívny", "es": "Activo",
+    },
+    "stopped": {
+        "en": "Stopped", "ru": "Остановлен", "uk": "Зупинено",
+        "cs": "Zastaven", "de": "Gestoppt", "pl": "Zatrzymany",
+        "sk": "Zastavený", "es": "Detenido",
+    },
+    "monitor_started": {
+        "en": "🟢 Monitoring <b>started!</b>",
+        "ru": "🟢 Мониторинг <b>запущен!</b>",
+        "uk": "🟢 Моніторинг <b>запущено!</b>",
+        "cs": "🟢 Monitoring <b>spuštěn!</b>",
+        "de": "🟢 Monitoring <b>gestartet!</b>",
+        "pl": "🟢 Monitoring <b>uruchomiony!</b>",
+        "sk": "🟢 Monitoring <b>spustený!</b>",
+        "es": "🟢 Monitoreo <b>iniciado!</b>",
+    },
+    "monitor_stopped": {
+        "en": "🔴 Monitoring <b>stopped.</b>",
+        "ru": "🔴 Мониторинг <b>остановлен.</b>",
+        "uk": "🔴 Моніторинг <b>зупинено.</b>",
+        "cs": "🔴 Monitoring <b>zastaven.</b>",
+        "de": "🔴 Monitoring <b>gestoppt.</b>",
+        "pl": "🔴 Monitoring <b>zatrzymany.</b>",
+        "sk": "🔴 Monitoring <b>zastavený.</b>",
+        "es": "🔴 Monitoreo <b>detenido.</b>",
+    },
+    # ── main menu buttons ────────────────────────────────────
+    "btn_deal":      {"en":"🏠 Deal type",    "ru":"🏠 Тип сделки",    "uk":"🏠 Тип угоди",       "cs":"🏠 Typ nabídky",   "de":"🏠 Angebotstyp",   "pl":"🏠 Typ oferty",      "sk":"🏠 Typ ponuky",      "es":"🏠 Tipo de oferta"},
+    "btn_rooms":     {"en":"🛏 Rooms",         "ru":"🛏 Комнаты",        "uk":"🛏 Кімнати",          "cs":"🛏 Pokoje",         "de":"🛏 Zimmer",         "pl":"🛏 Pokoje",           "sk":"🛏 Izby",             "es":"🛏 Habitaciones"},
+    "btn_price":     {"en":"💰 Price",         "ru":"💰 Цена",           "uk":"💰 Ціна",             "cs":"💰 Cena",           "de":"💰 Preis",          "pl":"💰 Cena",             "sk":"💰 Cena",             "es":"💰 Precio"},
+    "btn_districts": {"en":"📍 District",      "ru":"📍 Район",          "uk":"📍 Район",            "cs":"📍 Oblast",         "de":"📍 Bezirk",         "pl":"📍 Dzielnica",        "sk":"📍 Obvod",            "es":"📍 Distrito"},
+    "btn_metro":     {"en":"🚇 Metro distance","ru":"🚇 Расстояние до метро","uk":"🚇 Відстань до метро","cs":"🚇 Vzdálenost od metra","de":"🚇 U-Bahn-Entfernung","pl":"🚇 Odległość od metra","sk":"🚇 Vzdialenosť od metra","es":"🚇 Distancia al metro"},
+    "btn_extra":     {"en":"🔧 Extra filters", "ru":"🔧 Доп. фильтры",   "uk":"🔧 Додатково",        "cs":"🔧 Další filtry",   "de":"🔧 Weitere Filter", "pl":"🔧 Dodatkowe filtry", "sk":"🔧 Ďalšie filtre",   "es":"🔧 Filtros extra"},
+    "btn_review":    {"en":"🔍 Browse flats",  "ru":"🔍 Просмотреть",    "uk":"🔍 Переглянути квартири","cs":"🔍 Procházet byty","de":"🔍 Wohnungen ansehen","pl":"🔍 Przeglądaj mieszkania","sk":"🔍 Prezrieť byty","es":"🔍 Ver pisos"},
+    "btn_liked":     {"en":"❤️ Favourites",    "ru":"❤️ Избранное",      "uk":"❤️ Обрані",           "cs":"❤️ Oblíbené",       "de":"❤️ Favoriten",      "pl":"❤️ Ulubione",         "sk":"❤️ Obľúbené",        "es":"❤️ Favoritos"},
+    "btn_map":       {"en":"🗺 Map",           "ru":"🗺 Карта",           "uk":"🗺 Карта знайдених",  "cs":"🗺 Mapa",           "de":"🗺 Karte",          "pl":"🗺 Mapa",             "sk":"🗺 Mapa",             "es":"🗺 Mapa"},
+    "btn_clear_db":  {"en":"🗑 Clear database","ru":"🗑 Очистить базу",   "uk":"🗑 Очистити базу",    "cs":"🗑 Vymazat databázi","de":"🗑 DB löschen",     "pl":"🗑 Wyczyść bazę",    "sk":"🗑 Vymazať databázu", "es":"🗑 Limpiar base"},
+    "btn_settings":  {"en":"📋 Current settings","ru":"📋 Текущие настройки","uk":"📋 Поточні налаштування","cs":"📋 Aktuální nastavení","de":"📋 Aktuelle Einstellungen","pl":"📋 Bieżące ustawienia","sk":"📋 Aktuálne nastavenia","es":"📋 Config actual"},
+    "btn_language":  {"en":"🌍 Language",      "ru":"🌍 Язык",           "uk":"🌍 Мова",             "cs":"🌍 Jazyk",          "de":"🌍 Sprache",        "pl":"🌍 Język",            "sk":"🌍 Jazyk",            "es":"🌍 Idioma"},
+    "btn_back":      {"en":"◀️ Back",          "ru":"◀️ Назад",          "uk":"◀️ Назад",            "cs":"◀️ Zpět",           "de":"◀️ Zurück",         "pl":"◀️ Wstecz",           "sk":"◀️ Späť",             "es":"◀️ Volver"},
+    # ── deal type ────────────────────────────────────────────
+    "deal_menu":  {"en":"🏠 <b>Deal type</b>",   "ru":"🏠 <b>Тип сделки</b>",  "uk":"🏠 <b>Тип угоди</b>",    "cs":"🏠 <b>Typ nabídky</b>", "de":"🏠 <b>Angebotstyp</b>", "pl":"🏠 <b>Typ oferty</b>",     "sk":"🏠 <b>Typ ponuky</b>",     "es":"🏠 <b>Tipo de oferta</b>"},
+    "rent":       {"en":"Rent",                   "ru":"Аренда",                "uk":"Оренда",                 "cs":"Pronájem",              "de":"Miete",                 "pl":"Wynajem",                  "sk":"Prenájom",                 "es":"Alquiler"},
+    "sale":       {"en":"Sale",                   "ru":"Продажа",               "uk":"Продаж",                 "cs":"Prodej",                "de":"Kauf",                  "pl":"Sprzedaż",                 "sk":"Predaj",                   "es":"Venta"},
+    # ── rooms ────────────────────────────────────────────────
+    "rooms_menu": {"en":"🛏 <b>Rooms</b> (multiple allowed)","ru":"🛏 <b>Комнаты</b> (можно несколько)","uk":"🛏 <b>Кімнати</b> (можна кілька)","cs":"🛏 <b>Pokoje</b> (více možností)","de":"🛏 <b>Zimmer</b> (Mehrfachauswahl)","pl":"🛏 <b>Pokoje</b> (można kilka)","sk":"🛏 <b>Izby</b> (viac možností)","es":"🛏 <b>Habitaciones</b> (varias)"},
+    # ── price ────────────────────────────────────────────────
+    "price_menu": {
+        "en": "💰 <b>Enter price in chat:</b>\n\nType: <code>min max</code>\nExample: <code>10000 25000</code>\nMax only: <code>0 20000</code>",
+        "ru": "💰 <b>Введи цену в чат:</b>\n\nНапиши через пробел: <code>мин макс</code>\nПример: <code>10000 25000</code>\nТолько максимум: <code>0 20000</code>",
+        "uk": "💰 <b>Введи ціну в чат:</b>\n\nНапиши через пробіл: <code>мін макс</code>\nПриклад: <code>10000 25000</code>\nТільки максимум: <code>0 20000</code>",
+        "cs": "💰 <b>Zadejte cenu do chatu:</b>\n\nNapište: <code>min max</code>\nPříklad: <code>10000 25000</code>\nJen maximum: <code>0 20000</code>",
+        "de": "💰 <b>Preis im Chat eingeben:</b>\n\nSchreibe: <code>min max</code>\nBeispiel: <code>10000 25000</code>\nNur Maximum: <code>0 20000</code>",
+        "pl": "💰 <b>Wpisz cenę na czacie:</b>\n\nWpisz: <code>min max</code>\nPrzykład: <code>10000 25000</code>\nTylko max: <code>0 20000</code>",
+        "sk": "💰 <b>Zadajte cenu do chatu:</b>\n\nNapíšte: <code>min max</code>\nPríklad: <code>10000 25000</code>\nLen maximum: <code>0 20000</code>",
+        "es": "💰 <b>Introduce el precio en el chat:</b>\n\nEscribe: <code>min max</code>\nEjemplo: <code>10000 25000</code>\nSólo máximo: <code>0 20000</code>",
+    },
+    "price_set": {
+        "en": "✅ Price set: {min} – {max} Kč",
+        "ru": "✅ Цена установлена: {min} – {max} Kč",
+        "uk": "✅ Ціна встановлена: {min} – {max} Kč",
+        "cs": "✅ Cena nastavena: {min} – {max} Kč",
+        "de": "✅ Preis gesetzt: {min} – {max} Kč",
+        "pl": "✅ Cena ustawiona: {min} – {max} Kč",
+        "sk": "✅ Cena nastavená: {min} – {max} Kč",
+        "es": "✅ Precio establecido: {min} – {max} Kč",
+    },
+    "price_error": {
+        "en": "⚠️ Enter two numbers: <code>min max</code>\nExample: <code>10000 25000</code>",
+        "ru": "⚠️ Введи два числа: <code>мин макс</code>\nНапример: <code>10000 25000</code>",
+        "uk": "⚠️ Введи два числа через пробіл: <code>мін макс</code>\nНаприклад: <code>10000 25000</code>",
+        "cs": "⚠️ Zadejte dvě čísla: <code>min max</code>\nNapříklad: <code>10000 25000</code>",
+        "de": "⚠️ Zwei Zahlen eingeben: <code>min max</code>\nBeispiel: <code>10000 25000</code>",
+        "pl": "⚠️ Podaj dwie liczby: <code>min max</code>\nNa przykład: <code>10000 25000</code>",
+        "sk": "⚠️ Zadajte dve čísla: <code>min max</code>\nNapríklad: <code>10000 25000</code>",
+        "es": "⚠️ Introduce dos números: <code>min max</code>\nEjemplo: <code>10000 25000</code>",
+    },
+    # ── districts ────────────────────────────────────────────
+    "districts_menu": {"en":"📍 <b>Prague districts</b> (multiple)","ru":"📍 <b>Районы Праги</b> (несколько)","uk":"📍 <b>Райони Праги</b> (можна кілька)","cs":"📍 <b>Obvody Prahy</b> (více)","de":"📍 <b>Prager Bezirke</b> (mehrere)","pl":"📍 <b>Dzielnice Pragi</b> (kilka)","sk":"📍 <b>Obvody Prahy</b> (viac)","es":"📍 <b>Distritos de Praga</b> (varios)"},
+    "btn_all_districts": {"en":"🗑 All districts","ru":"🗑 Все районы","uk":"🗑 Всі райони","cs":"🗑 Všechny obvody","de":"🗑 Alle Bezirke","pl":"🗑 Wszystkie dzielnice","sk":"🗑 Všetky obvody","es":"🗑 Todos los distritos"},
+    # ── metro ────────────────────────────────────────────────
+    "metro_menu":    {"en":"🚇 <b>Metro distance</b>","ru":"🚇 <b>Расстояние до метро</b>","uk":"🚇 <b>Відстань до метро</b>","cs":"🚇 <b>Vzdálenost od metra</b>","de":"🚇 <b>U-Bahn-Entfernung</b>","pl":"🚇 <b>Odległość od metra</b>","sk":"🚇 <b>Vzdialenosť od metra</b>","es":"🚇 <b>Distancia al metro</b>"},
+    "metro_any":     {"en":"Any distance","ru":"Любое","uk":"Будь-яка","cs":"Libovolná","de":"Beliebig","pl":"Dowolna","sk":"Ľubovoľná","es":"Cualquiera"},
+    # ── extra ────────────────────────────────────────────────
+    "extra_menu":    {"en":"🔧 <b>Extra filters</b>","ru":"🔧 <b>Дополнительные фильтры</b>","uk":"🔧 <b>Додаткові фільтри</b>","cs":"🔧 <b>Další filtry</b>","de":"🔧 <b>Weitere Filter</b>","pl":"🔧 <b>Dodatkowe filtry</b>","sk":"🔧 <b>Ďalšie filtre</b>","es":"🔧 <b>Filtros adicionales</b>"},
+    "lbl_furniture": {"en":"🪑 Furniture:","ru":"🪑 Мебель:","uk":"🪑 Меблі:","cs":"🪑 Nábytek:","de":"🪑 Möbel:","pl":"🪑 Meble:","sk":"🪑 Nábytok:","es":"🪑 Muebles:"},
+    "lbl_pets":      {"en":"🐾 Pets:","ru":"🐾 Животные:","uk":"🐾 Тварини:","cs":"🐾 Domácí zvířata:","de":"🐾 Haustiere:","pl":"🐾 Zwierzęta:","sk":"🐾 Zvieratá:","es":"🐾 Mascotas:"},
+    "lbl_balcony":   {"en":"🏗 Balcony:","ru":"🏗 Балкон:","uk":"🏗 Балкон:","cs":"🏗 Balkon:","de":"🏗 Balkon:","pl":"🏗 Balkon:","sk":"🏗 Balkón:","es":"🏗 Balcón:"},
+    "tri_yes":  {"en":"Yes","ru":"Да","uk":"Так","cs":"Ano","de":"Ja","pl":"Tak","sk":"Áno","es":"Sí"},
+    "tri_no":   {"en":"No", "ru":"Нет","uk":"Ні", "cs":"Ne", "de":"Nein","pl":"Nie","sk":"Nie","es":"No"},
+    "tri_any":  {"en":"Any","ru":"Неважно","uk":"Байдуже","cs":"Nezáleží","de":"Egal","pl":"Obojętnie","sk":"Jedno mi","es":"Indiferente"},
+    # ── map ──────────────────────────────────────────────────
+    "map_generating": {"en":"🗺 Generating map...","ru":"🗺 Генерирую карту...","uk":"🗺 Генерую карту...","cs":"🗺 Generuji mapu...","de":"🗺 Karte wird erstellt...","pl":"🗺 Generuję mapę...","sk":"🗺 Generujem mapu...","es":"🗺 Generando mapa..."},
+    "map_empty":      {"en":"📭 No apartments with coordinates yet.\nStart monitoring — they'll appear here.","ru":"📭 Пока нет квартир с координатами.\nЗапусти мониторинг — они появятся здесь.","uk":"📭 Поки немає знайдених квартир з координатами.\nЗапусти моніторинг — квартири з'являться тут.","cs":"📭 Zatím žádné byty se souřadnicemi.\nSpusťte monitoring — objeví se zde.","de":"📭 Noch keine Wohnungen mit Koordinaten.\nMonitoring starten — sie erscheinen hier.","pl":"📭 Brak mieszkań ze współrzędnymi.\nUruchom monitoring — pojawią się tutaj.","sk":"📭 Zatiaľ žiadne byty so súradnicami.\nSpustite monitoring — objavia sa tu.","es":"📭 Aún no hay pisos con coordenadas.\nInicia el monitoreo — aparecerán aquí."},
+    "map_caption":    {"en":"🗺 <b>Interactive map</b> — {n} apartments\n\nOpen the file in browser: drag, zoom, click on points","ru":"🗺 <b>Интерактивная карта</b> — {n} квартир\n\nОткрой файл в браузере: двигай, зумируй, нажимай на точки","uk":"🗺 <b>Інтерактивна карта</b> — {n} квартир\n\nВідкрий файл у браузері: рухай, зумуй, натискай на точки","cs":"🗺 <b>Interaktivní mapa</b> — {n} bytů\n\nOtevřete soubor v prohlížeči: pohybujte, přibližujte, klikejte","de":"🗺 <b>Interaktive Karte</b> — {n} Wohnungen\n\nDatei im Browser öffnen: ziehen, zoomen, klicken","pl":"🗺 <b>Interaktywna mapa</b> — {n} mieszkań\n\nOtwórz plik w przeglądarce: przesuń, powiększ, klikaj","sk":"🗺 <b>Interaktívna mapa</b> — {n} bytov\n\nOtvorte súbor v prehliadači: pohybujte, priblížte, klikajte","es":"🗺 <b>Mapa interactivo</b> — {n} pisos\n\nAbre el archivo en el navegador: arrastra, zoom, haz clic"},
+    "map_error":      {"en":"⚠️ Map generation error","ru":"⚠️ Ошибка генерации карты","uk":"⚠️ Помилка генерації карти","cs":"⚠️ Chyba generování mapy","de":"⚠️ Fehler bei Kartenerstellung","pl":"⚠️ Błąd generowania mapy","sk":"⚠️ Chyba generovania mapy","es":"⚠️ Error al generar el mapa"},
+    # ── clear db ─────────────────────────────────────────────
+    "clear_confirm": {"en":"🗑 Are you sure? This will delete all found apartments and they will come again.","ru":"🗑 Ты уверен? Это удалит все найденные квартиры и они придут снова.","uk":"🗑 Ти впевнений? Це видалить всі знайдені квартири і вони прийдуть знову.","cs":"🗑 Jste si jistí? Tím odstraníte všechny nalezené byty a přijdou znovu.","de":"🗑 Sicher? Alle gefundenen Wohnungen werden gelöscht und erscheinen erneut.","pl":"🗑 Jesteś pewien? Usunie to wszystkie znalezione mieszkania i pojawią się ponownie.","sk":"🗑 Ste si istí? Tým sa odstránia všetky nájdené byty a prídu znovu.","es":"🗑 ¿Estás seguro? Se borrarán todos los pisos y volverán a aparecer."},
+    "clear_yes": {"en":"✅ Yes, clear","ru":"✅ Да, очистить","uk":"✅ Так, очистити","cs":"✅ Ano, vymazat","de":"✅ Ja, löschen","pl":"✅ Tak, wyczyść","sk":"✅ Áno, vymazať","es":"✅ Sí, limpiar"},
+    "clear_no":  {"en":"❌ Cancel","ru":"❌ Отмена","uk":"❌ Скасувати","cs":"❌ Zrušit","de":"❌ Abbrechen","pl":"❌ Anuluj","sk":"❌ Zrušiť","es":"❌ Cancelar"},
+    "clear_done": {"en":"✅ Database cleared. Monitoring will find everything from scratch.","ru":"✅ База очищена. Мониторинг найдёт всё заново.","uk":"✅ База очищена. Моніторинг знайде все з нуля.","cs":"✅ Databáze vymazána. Monitoring najde vše znovu.","de":"✅ Datenbank geleert. Monitoring findet alles neu.","pl":"✅ Baza wyczyszczona. Monitoring znajdzie wszystko od nowa.","sk":"✅ Databáza vymazaná. Monitoring nájde všetko odznova.","es":"✅ Base limpiada. El monitoreo encontrará todo de nuevo."},
+    # ── review ───────────────────────────────────────────────
+    "review_empty":   {"en":"📭 No new apartments to review.\nStart monitoring or check later.","ru":"📭 Нет новых квартир для просмотра.\nЗапусти мониторинг или проверь позже.","uk":"📭 Немає нових квартир для перегляду.\nЗапусти моніторинг або перевір пізніше.","cs":"📭 Žádné nové byty k procházení.\nSpusťte monitoring nebo zkuste později.","de":"📭 Keine neuen Wohnungen zum Ansehen.\nMonitoring starten oder später prüfen.","pl":"📭 Brak nowych mieszkań do przeglądania.\nUruchom monitoring lub sprawdź później.","sk":"📭 Žiadne nové byty na prezretie.\nSpustite monitoring alebo skontrolujte neskôr.","es":"📭 No hay pisos nuevos para revisar.\nInicia el monitoreo o comprueba más tarde."},
+    "review_start_msg":{"en":"🔍 <b>Review mode</b>\n\nFound <b>{n}</b> unrated apartments.\n👍 like   👎 dislike   ⏭ skip","ru":"🔍 <b>Режим просмотра</b>\n\nНайдено <b>{n}</b> квартир без оценки.\n👍 нравится   👎 нет   ⏭ пропустить","uk":"🔍 <b>Режим перегляду</b>\n\nЗнайдено <b>{n}</b> квартир без оцінки.\n👍 подобається   👎 ні   ⏭ пропустити","cs":"🔍 <b>Režim procházení</b>\n\nNalezeno <b>{n}</b> nehodnocených bytů.\n👍 líbí se   👎 ne   ⏭ přeskočit","de":"🔍 <b>Durchsehen-Modus</b>\n\n<b>{n}</b> unbeurteilte Wohnungen gefunden.\n👍 gefällt   👎 nein   ⏭ überspringen","pl":"🔍 <b>Tryb przeglądania</b>\n\nZnaleziono <b>{n}</b> niezocenionych mieszkań.\n👍 podoba   👎 nie   ⏭ pomiń","sk":"🔍 <b>Režim prezerania</b>\n\nNájdených <b>{n}</b> neohodnotených bytov.\n👍 páči sa   👎 nie   ⏭ preskočiť","es":"🔍 <b>Modo revisión</b>\n\nSe encontraron <b>{n}</b> pisos sin valorar.\n👍 me gusta   👎 no   ⏭ saltar"},
+    "review_remaining":{"en":"<i>Remaining: {n}</i>","ru":"<i>Осталось: {n}</i>","uk":"<i>Залишилось: {n}</i>","cs":"<i>Zbývá: {n}</i>","de":"<i>Verbleibend: {n}</i>","pl":"<i>Pozostało: {n}</i>","sk":"<i>Zostáva: {n}</i>","es":"<i>Quedan: {n}</i>"},
+    "review_done":     {"en":"✅ <b>You've reviewed all apartments!</b>\n\nPress ❤️ Favourites to see liked ones.","ru":"✅ <b>Вы просмотрели все квартиры!</b>\n\nНажми ❤️ Избранное чтобы увидеть лайкнутые.","uk":"✅ <b>Ви переглянули всі квартири!</b>\n\nНатисни ❤️ Обрані щоб побачити лайкнуті.","cs":"✅ <b>Prošli jste všechny byty!</b>\n\nStiskněte ❤️ Oblíbené pro zobrazení liked.","de":"✅ <b>Alle Wohnungen angesehen!</b>\n\n❤️ Favoriten für gemochte drücken.","pl":"✅ <b>Przejrzałeś wszystkie mieszkania!</b>\n\nNaciśnij ❤️ Ulubione aby zobaczyć polubione.","sk":"✅ <b>Prezreli ste všetky byty!</b>\n\nStlačte ❤️ Obľúbené pre zobrazenie páčených.","es":"✅ <b>¡Has revisado todos los pisos!</b>\n\nPulsa ❤️ Favoritos para ver los que te gustan."},
+    "review_stopped":  {"en":"⏹ Review stopped.","ru":"⏹ Просмотр остановлен.","uk":"⏹ Перегляд зупинено.","cs":"⏹ Procházení zastaveno.","de":"⏹ Durchsehen gestoppt.","pl":"⏹ Przeglądanie zatrzymane.","sk":"⏹ Prezeranie zastavené.","es":"⏹ Revisión detenida."},
+    "btn_like":        {"en":"👍 Like","ru":"👍 Нравится","uk":"👍 Подобається","cs":"👍 Líbí se","de":"👍 Gefällt","pl":"👍 Podoba","sk":"👍 Páči sa","es":"👍 Me gusta"},
+    "btn_dislike":     {"en":"👎 No","ru":"👎 Нет","uk":"👎 Ні","cs":"👎 Ne","de":"👎 Nein","pl":"👎 Nie","sk":"👎 Nie","es":"👎 No"},
+    "btn_skip":        {"en":"⏭ Skip","ru":"⏭ Пропустить","uk":"⏭ Пропустити","cs":"⏭ Přeskočit","de":"⏭ Überspringen","pl":"⏭ Pomiń","sk":"⏭ Preskočiť","es":"⏭ Saltar"},
+    "btn_stop_review": {"en":"✖️ Stop","ru":"✖️ Стоп","uk":"✖️ Стоп","cs":"✖️ Stop","de":"✖️ Stopp","pl":"✖️ Stop","sk":"✖️ Stop","es":"✖️ Stop"},
+    "btn_favourites":  {"en":"❤️ Favourites","ru":"❤️ Избранное","uk":"❤️ Обрані","cs":"❤️ Oblíbené","de":"❤️ Favoriten","pl":"❤️ Ulubione","sk":"❤️ Obľúbené","es":"❤️ Favoritos"},
+    "btn_menu":        {"en":"◀️ Menu","ru":"◀️ Меню","uk":"◀️ Меню","cs":"◀️ Menu","de":"◀️ Menü","pl":"◀️ Menu","sk":"◀️ Menu","es":"◀️ Menú"},
+    # ── liked ────────────────────────────────────────────────
+    "liked_empty":  {"en":"💔 No liked apartments yet.\nPress 🔍 Browse and tap 👍","ru":"💔 Ещё нет понравившихся квартир.\nНажми 🔍 Просмотреть и ставь 👍","uk":"💔 Ще немає лайкнутих квартир.\nНатисни 🔍 Переглянути квартири і став 👍","cs":"💔 Zatím žádné oblíbené byty.\nStiskněte 🔍 Procházet a klikněte 👍","de":"💔 Noch keine gemochten Wohnungen.\n🔍 Ansehen drücken und 👍 tippen","pl":"💔 Brak polubionych mieszkań.\nNaciśnij 🔍 Przeglądaj i kliknij 👍","sk":"💔 Zatiaľ žiadne obľúbené byty.\nStlačte 🔍 Prezrieť a kliknite 👍","es":"💔 No hay pisos favoritos aún.\nPulsa 🔍 Ver y toca 👍"},
+    "liked_header": {"en":"❤️ <b>Favourite apartments</b> — {n} items\n\nSending...","ru":"❤️ <b>Избранные квартиры</b> — {n} шт.\n\nОтправляю...","uk":"❤️ <b>Обрані квартири</b> — {n} шт.\n\nНадсилаю...","cs":"❤️ <b>Oblíbené byty</b> — {n} ks\n\nOdesílám...","de":"❤️ <b>Favoriten</b> — {n} Wohnungen\n\nSende...","pl":"❤️ <b>Ulubione mieszkania</b> — {n} szt.\n\nWysyłam...","sk":"❤️ <b>Obľúbené byty</b> — {n} ks\n\nOdosielam...","es":"❤️ <b>Pisos favoritos</b> — {n} elementos\n\nEnviando..."},
+    "liked_footer": {"en":"— End of list ({n} apartments) —","ru":"— Конец списка ({n} квартир) —","uk":"— Кінець списку ({n} квартир) —","cs":"— Konec seznamu ({n} bytů) —","de":"— Ende der Liste ({n} Wohnungen) —","pl":"— Koniec listy ({n} mieszkań) —","sk":"— Koniec zoznamu ({n} bytov) —","es":"— Fin de la lista ({n} pisos) —"},
+    "btn_unlike":   {"en":"🗑 Remove from favourites","ru":"🗑 Убрать из избранного","uk":"🗑 Прибрати з обраних","cs":"🗑 Odstranit z oblíbených","de":"🗑 Aus Favoriten entfernen","pl":"🗑 Usuń z ulubionych","sk":"🗑 Odstrániť z obľúbených","es":"🗑 Quitar de favoritos"},
+    "unlike_done":  {"en":"🗑 Removed from favourites.","ru":"🗑 Убрано из избранного.","uk":"🗑 Прибрано з обраних.","cs":"🗑 Odstraněno z oblíbených.","de":"🗑 Aus Favoriten entfernt.","pl":"🗑 Usunięto z ulubionych.","sk":"🗑 Odstránené z obľúbených.","es":"🗑 Eliminado de favoritos."},
+    # ── settings display ─────────────────────────────────────
+    "settings_title":    {"en":"📋 <b>Current settings:</b>\n\n","ru":"📋 <b>Текущие настройки:</b>\n\n","uk":"📋 <b>Поточні налаштування:</b>\n\n","cs":"📋 <b>Aktuální nastavení:</b>\n\n","de":"📋 <b>Aktuelle Einstellungen:</b>\n\n","pl":"📋 <b>Bieżące ustawienia:</b>\n\n","sk":"📋 <b>Aktuálne nastavenia:</b>\n\n","es":"📋 <b>Configuración actual:</b>\n\n"},
+    "settings_type":     {"en":"🏠 Type: ","ru":"🏠 Тип: ","uk":"🏠 Тип: ","cs":"🏠 Typ: ","de":"🏠 Typ: ","pl":"🏠 Typ: ","sk":"🏠 Typ: ","es":"🏠 Tipo: "},
+    "settings_rooms":    {"en":"🛏 Rooms: ","ru":"🛏 Комнаты: ","uk":"🛏 Кімнати: ","cs":"🛏 Pokoje: ","de":"🛏 Zimmer: ","pl":"🛏 Pokoje: ","sk":"🛏 Izby: ","es":"🛏 Habitaciones: "},
+    "settings_price":    {"en":"💰 Price: ","ru":"💰 Цена: ","uk":"💰 Ціна: ","cs":"💰 Cena: ","de":"💰 Preis: ","pl":"💰 Cena: ","sk":"💰 Cena: ","es":"💰 Precio: "},
+    "settings_districts":{"en":"📍 Districts: ","ru":"📍 Районы: ","uk":"📍 Райони: ","cs":"📍 Obvody: ","de":"📍 Bezirke: ","pl":"📍 Dzielnice: ","sk":"📍 Obvody: ","es":"📍 Distritos: "},
+    "settings_metro":    {"en":"🚇 Metro: up to ","ru":"🚇 Метро: до ","uk":"🚇 Метро: до ","cs":"🚇 Metro: do ","de":"🚇 U-Bahn: bis ","pl":"🚇 Metro: do ","sk":"🚇 Metro: do ","es":"🚇 Metro: hasta "},
+    "settings_furn":     {"en":"🪑 Furniture: ","ru":"🪑 Мебель: ","uk":"🪑 Меблі: ","cs":"🪑 Nábytek: ","de":"🪑 Möbel: ","pl":"🪑 Meble: ","sk":"🪑 Nábytok: ","es":"🪑 Muebles: "},
+    "settings_pets":     {"en":"🐾 Pets: ","ru":"🐾 Животные: ","uk":"🐾 Тварини: ","cs":"🐾 Zvířata: ","de":"🐾 Haustiere: ","pl":"🐾 Zwierzęta: ","sk":"🐾 Zvieratá: ","es":"🐾 Mascotas: "},
+    "settings_balcony":  {"en":"🏗 Balcony: ","ru":"🏗 Балкон: ","uk":"🏗 Балкон: ","cs":"🏗 Balkón: ","de":"🏗 Balkon: ","pl":"🏗 Balkon: ","sk":"🏗 Balkón: ","es":"🏗 Balcón: "},
+    "settings_interval": {"en":"⏱ Check: every {m} min\n","ru":"⏱ Проверка: каждые {m} мин\n","uk":"⏱ Перевірка: кожні {m} хв\n","cs":"⏱ Kontrola: každých {m} min\n","de":"⏱ Prüfung: alle {m} Min\n","pl":"⏱ Sprawdzanie: co {m} min\n","sk":"⏱ Kontrola: každých {m} min\n","es":"⏱ Comprobación: cada {m} min\n"},
+    "any_rooms":         {"en":"any","ru":"любые","uk":"будь-які","cs":"libovolné","de":"beliebig","pl":"dowolne","sk":"ľubovoľné","es":"cualquiera"},
+    "all_districts":     {"en":"all","ru":"все","uk":"всі","cs":"všechny","de":"alle","pl":"wszystkie","sk":"všetky","es":"todos"},
+    "monitor_on":        {"en":"🟢 Active","ru":"🟢 Активен","uk":"🟢 Активний","cs":"🟢 Aktivní","de":"🟢 Aktiv","pl":"🟢 Aktywny","sk":"🟢 Aktívny","es":"🟢 Activo"},
+    "monitor_off":       {"en":"🔴 Stopped","ru":"🔴 Остановлен","uk":"🔴 Зупинено","cs":"🔴 Zastaven","de":"🔴 Gestoppt","pl":"🔴 Zatrzymany","sk":"🔴 Zastavený","es":"🔴 Detenido"},
+    "btn_review_start":  {"en":"🔍 Browse","ru":"🔍 Просмотреть","uk":"🔍 Переглянути","cs":"🔍 Procházet","de":"🔍 Ansehen","pl":"🔍 Przeglądaj","sk":"🔍 Prezrieť","es":"🔍 Ver"},
+    # ── skip keywords ────────────────────────────────────────
+    "btn_skip_kw":    {"en":"📵 Auto-skip words",  "ru":"📵 Слова-исключения","uk":"📵 Слова-виключення","cs":"📵 Vylučovací slova","de":"📵 Ausschlusswörter","pl":"📵 Słowa-wykluczenia","sk":"📵 Vylučovacie slová","es":"📵 Palabras a excluir"},
+    "skip_kw_menu":   {"en":"📵 <b>Auto-skip keywords</b>\n\nListings whose title contains any of these words will be automatically skipped.","ru":"📵 <b>Слова-исключения</b>\n\nОбъявления, в названии которых есть эти слова, будут автоматически пропускаться.","uk":"📵 <b>Слова-виключення</b>\n\nОголошення, у назві яких є ці слова, будуть автоматично пропускатись.","cs":"📵 <b>Vylučovací slova</b>\n\nInzeráty, jejichž název obsahuje tato slova, budou automaticky přeskočeny.","de":"📵 <b>Ausschlusswörter</b>\n\nInserate mit diesen Wörtern im Titel werden automatisch übersprungen.","pl":"📵 <b>Słowa-wykluczenia</b>\n\nOgłoszenia zawierające te słowa w tytule będą automatycznie pomijane.","sk":"📵 <b>Vylučovacie slová</b>\n\nInzeráty, ktorých názov obsahuje tieto slová, budú automaticky preskočené.","es":"📵 <b>Palabras a excluir</b>\n\nLos anuncios cuyo título contenga estas palabras se saltarán automáticamente."},
+    "skip_kw_empty":  {"en":"<i>No keywords yet. Add one below.</i>","ru":"<i>Слов пока нет. Добавь ниже.</i>","uk":"<i>Слів поки немає. Додай нижче.</i>","cs":"<i>Zatím žádná slova. Přidejte níže.</i>","de":"<i>Noch keine Wörter. Unten hinzufügen.</i>","pl":"<i>Brak słów. Dodaj poniżej.</i>","sk":"<i>Zatiaľ žiadne slová. Pridajte nižšie.</i>","es":"<i>Sin palabras. Añade una abajo.</i>"},
+    "btn_add_kw":     {"en":"➕ Add word","ru":"➕ Добавить слово","uk":"➕ Додати слово","cs":"➕ Přidat slovo","de":"➕ Wort hinzufügen","pl":"➕ Dodaj słowo","sk":"➕ Pridať slovo","es":"➕ Añadir palabra"},
+    "skip_kw_hint":   {"en":"Type a word or phrase to auto-skip (e.g. <code>reconstruction</code>):","ru":"Напиши слово или фразу для авто-пропуска (напр. <code>реконструкция</code>):","uk":"Напиши слово або фразу для авто-пропуску (напр. <code>реконструкція</code>):","cs":"Napište slovo nebo frázi k přeskočení (např. <code>rekonstrukce</code>):","de":"Wort oder Phrase eingeben (z.B. <code>Renovierung</code>):","pl":"Wpisz słowo lub frazę do pominięcia (np. <code>remont</code>):","sk":"Napíšte slovo alebo frázu na preskočenie (napr. <code>rekonštrukcia</code>):","es":"Escribe una palabra o frase a excluir (ej. <code>reforma</code>):"},
+    "skip_kw_added":  {"en":"✅ Added: <b>{w}</b>","ru":"✅ Добавлено: <b>{w}</b>","uk":"✅ Додано: <b>{w}</b>","cs":"✅ Přidáno: <b>{w}</b>","de":"✅ Hinzugefügt: <b>{w}</b>","pl":"✅ Dodano: <b>{w}</b>","sk":"✅ Pridané: <b>{w}</b>","es":"✅ Añadido: <b>{w}</b>"},
+    "skip_kw_removed":{"en":"🗑 Removed","ru":"🗑 Удалено","uk":"🗑 Видалено","cs":"🗑 Odstraněno","de":"🗑 Entfernt","pl":"🗑 Usunięto","sk":"🗑 Odstránené","es":"🗑 Eliminado"},
+    # ── commute filter ───────────────────────────────────────
+    "btn_commute":    {"en":"🚶 Commute","ru":"🚶 Дорога на работу","uk":"🚶 Дорога до роботи","cs":"🚶 Dojíždění","de":"🚶 Pendeln","pl":"🚶 Dojazd","sk":"🚶 Dochádzanie","es":"🚶 Commute"},
+    "commute_menu":   {"en":"🚶 <b>Commute filter</b>\n\nApartments further than your limit will be skipped.\n<i>Estimate based on straight-line distance / Prague average speed.</i>","ru":"🚶 <b>Фильтр по дороге</b>\n\nКвартиры дальше лимита будут пропускаться.\n<i>Оценка по прямому расстоянию / средней скорости Праги.</i>","uk":"🚶 <b>Фільтр за дорогою</b>\n\nКвартири далі ліміту будуть пропускатись.\n<i>Оцінка за прямою відстанню / середньою швидкістю Праги.</i>","cs":"🚶 <b>Filtr dojíždění</b>\n\nByty dál než váš limit budou přeskočeny.\n<i>Odhad dle vzdušné vzdálenosti / průměrné rychlosti Prahy.</i>","de":"🚶 <b>Pendelfilter</b>\n\nWohnungen weiter als Ihr Limit werden übersprungen.\n<i>Schätzung nach Luftlinie / Prager Durchschnittsgeschwindigkeit.</i>","pl":"🚶 <b>Filtr dojazdu</b>\n\nMieszkania poza limitem będą pomijane.\n<i>Szacunek wg odległości w linii prostej / średniej prędkości Pragi.</i>","sk":"🚶 <b>Filter dochádzania</b>\n\nByty ďalej ako váš limit budú preskočené.\n<i>Odhad podľa priamej vzdialenosti / priemernej rýchlosti Prahy.</i>","es":"🚶 <b>Filtro de commute</b>\n\nSe saltarán pisos más lejos de tu límite.\n<i>Estimación por distancia en línea recta / velocidad media de Praga.</i>"},
+    "commute_addr":   {"en":"📍 Work address: <b>{a}</b>","ru":"📍 Адрес работы: <b>{a}</b>","uk":"📍 Адреса роботи: <b>{a}</b>","cs":"📍 Adresa práce: <b>{a}</b>","de":"📍 Arbeitsadresse: <b>{a}</b>","pl":"📍 Adres pracy: <b>{a}</b>","sk":"📍 Adresa práce: <b>{a}</b>","es":"📍 Dirección trabajo: <b>{a}</b>"},
+    "commute_no_addr":{"en":"📍 Work address: <i>not set</i>","ru":"📍 Адрес работы: <i>не задан</i>","uk":"📍 Адреса роботи: <i>не задана</i>","cs":"📍 Adresa práce: <i>nenastavena</i>","de":"📍 Arbeitsadresse: <i>nicht gesetzt</i>","pl":"📍 Adres pracy: <i>nie ustawiony</i>","sk":"📍 Adresa práce: <i>nenastavená</i>","es":"📍 Dirección: <i>no establecida</i>"},
+    "btn_set_addr":   {"en":"📍 Set work address","ru":"📍 Указать адрес работы","uk":"📍 Вказати адресу роботи","cs":"📍 Nastavit adresu práce","de":"📍 Arbeitsadresse setzen","pl":"📍 Ustaw adres pracy","sk":"📍 Nastaviť adresu práce","es":"📍 Establecer dirección"},
+    "commute_addr_hint":{"en":"Type your work/school address (e.g. <code>Václavské náměstí, Praha</code>):","ru":"Напиши адрес работы/учёбы (напр. <code>Вацлавска площадь, Прага</code>):","uk":"Напиши адресу роботи/навчання (напр. <code>Václavské náměstí, Praha</code>):","cs":"Napište adresu práce/školy (např. <code>Václavské náměstí, Praha</code>):","de":"Arbeits-/Schuladresse eingeben (z.B. <code>Václavské náměstí, Praha</code>):","pl":"Wpisz adres pracy/szkoły (np. <code>Václavské náměstí, Praha</code>):","sk":"Napíšte adresu práce/školy (napr. <code>Václavské náměstí, Praha</code>):","es":"Escribe dirección trabajo/escuela (ej. <code>Václavské náměstí, Praha</code>):"},
+    "commute_geocoding":{"en":"🔍 Geocoding address...","ru":"🔍 Определяю координаты...","uk":"🔍 Визначаю координати...","cs":"🔍 Geokódování adresy...","de":"🔍 Adresse wird geokodiert...","pl":"🔍 Geokodowanie adresu...","sk":"🔍 Geokódovanie adresy...","es":"🔍 Geocodificando dirección..."},
+    "commute_addr_ok":  {"en":"✅ Address set: <b>{a}</b>\nCoords: {lat:.4f}, {lon:.4f}","ru":"✅ Адрес задан: <b>{a}</b>\nКоординаты: {lat:.4f}, {lon:.4f}","uk":"✅ Адресу задано: <b>{a}</b>\nКоординати: {lat:.4f}, {lon:.4f}","cs":"✅ Adresa nastavena: <b>{a}</b>\nSouřadnice: {lat:.4f}, {lon:.4f}","de":"✅ Adresse gesetzt: <b>{a}</b>\nKoord.: {lat:.4f}, {lon:.4f}","pl":"✅ Adres ustawiony: <b>{a}</b>\nWspółrzędne: {lat:.4f}, {lon:.4f}","sk":"✅ Adresa nastavená: <b>{a}</b>\nSúradnice: {lat:.4f}, {lon:.4f}","es":"✅ Dirección establecida: <b>{a}</b>\nCoordenadas: {lat:.4f}, {lon:.4f}"},
+    "commute_addr_fail":{"en":"❌ Could not find this address. Try adding the city, e.g. <code>Florenc, Praha</code>","ru":"❌ Адрес не найден. Попробуй добавить город, напр. <code>Флоренц, Прага</code>","uk":"❌ Адресу не знайдено. Спробуй додати місто, напр. <code>Florenc, Praha</code>","cs":"❌ Adresu se nepodařilo najít. Zkuste přidat město, např. <code>Florenc, Praha</code>","de":"❌ Adresse nicht gefunden. Versuchen Sie, die Stadt hinzuzufügen, z.B. <code>Florenc, Praha</code>","pl":"❌ Nie znaleziono adresu. Spróbuj dodać miasto, np. <code>Florenc, Praha</code>","sk":"❌ Adresu sa nepodarilo nájsť. Skúste pridať mesto, napr. <code>Florenc, Praha</code>","es":"❌ No se encontró la dirección. Intenta añadir la ciudad, ej. <code>Florenc, Praha</code>"},
+    "commute_disabled":{"en":"🚫 Disabled","ru":"🚫 Отключено","uk":"🚫 Вимкнено","cs":"🚫 Vypnuto","de":"🚫 Deaktiviert","pl":"🚫 Wyłączone","sk":"🚫 Vypnuté","es":"🚫 Desactivado"},
+    # ── digest ───────────────────────────────────────────────
+    "btn_digest":     {"en":"📰 Daily digest","ru":"📰 Ежедневный дайджест","uk":"📰 Щоденний дайджест","cs":"📰 Denní přehled","de":"📰 Tägliche Zusammenfassung","pl":"📰 Dzienny przegląd","sk":"📰 Denný prehľad","es":"📰 Resumen diario"},
+    "digest_menu":    {"en":"📰 <b>Daily digest</b>\n\nInstead of instant notifications, all new apartments will be collected and sent at the chosen time once per day.","ru":"📰 <b>Ежедневный дайджест</b>\n\nВместо мгновенных уведомлений, все новые квартиры будут собраны и отправлены в выбранное время раз в день.","uk":"📰 <b>Щоденний дайджест</b>\n\nЗамість миттєвих сповіщень, всі нові квартири будуть зібрані та надіслані у вибраний час раз на день.","cs":"📰 <b>Denní přehled</b>\n\nMísto okamžitých oznámení budou všechny nové byty shromážděny a odeslány ve zvolenou dobu jednou denně.","de":"📰 <b>Tägliche Zusammenfassung</b>\n\nAnstatt sofortiger Benachrichtigungen werden alle neuen Wohnungen gesammelt und einmal täglich zur gewählten Zeit gesendet.","pl":"📰 <b>Dzienny przegląd</b>\n\nZamiast natychmiastowych powiadomień, wszystkie nowe mieszkania będą zebrane i wysłane o wybranej porze raz dziennie.","sk":"📰 <b>Denný prehľad</b>\n\nNamiesto okamžitých upozornení budú všetky nové byty zhromaždené a odoslané vo zvolenom čase raz denne.","es":"📰 <b>Resumen diario</b>\n\nEn lugar de notificaciones instantáneas, todos los pisos nuevos se recopilarán y enviarán a la hora elegida una vez al día."},
+    "digest_status_on": {"en":"🟢 ON — sends at {h}:00","ru":"🟢 ВКЛ — отправляет в {h}:00","uk":"🟢 УВІМК — надсилає о {h}:00","cs":"🟢 ZAP — odesílá v {h}:00","de":"🟢 AN — sendet um {h}:00","pl":"🟢 WŁ — wysyła o {h}:00","sk":"🟢 ZAP — odosiela o {h}:00","es":"🟢 ON — envía a las {h}:00"},
+    "digest_status_off":{"en":"🔴 OFF — notifications are instant","ru":"🔴 ВЫКЛ — уведомления мгновенные","uk":"🔴 ВИМКН — сповіщення миттєві","cs":"🔴 VYP — oznámení jsou okamžitá","de":"🔴 AUS — Benachrichtigungen sofort","pl":"🔴 WYŁ — powiadomienia są natychmiastowe","sk":"🔴 VYP — upozornenia sú okamžité","es":"🔴 OFF — notificaciones son instantáneas"},
+    "btn_digest_on":    {"en":"🔴 Switch to instant","ru":"🔴 Переключить на мгновенные","uk":"🔴 Переключити на миттєві","cs":"🔴 Přepnout na okamžité","de":"🔴 Auf sofort umschalten","pl":"🔴 Przełącz na natychmiastowe","sk":"🔴 Prepnúť na okamžité","es":"🔴 Cambiar a instantáneas"},
+    "btn_digest_off":   {"en":"🟢 Switch to daily digest","ru":"🟢 Переключить на дайджест","uk":"🟢 Переключити на дайджест","cs":"🟢 Přepnout na denní přehled","de":"🟢 Auf Zusammenfassung umschalten","pl":"🟢 Przełącz na przegląd","sk":"🟢 Prepnúť na prehľad","es":"🟢 Cambiar a resumen diario"},
+    "digest_sent":      {"en":"📰 <b>Daily digest</b> — {n} new apartments\n\n","ru":"📰 <b>Ежедневный дайджест</b> — {n} новых квартир\n\n","uk":"📰 <b>Щоденний дайджест</b> — {n} нових квартир\n\n","cs":"📰 <b>Denní přehled</b> — {n} nových bytů\n\n","de":"📰 <b>Tägliche Zusammenfassung</b> — {n} neue Wohnungen\n\n","pl":"📰 <b>Dzienny przegląd</b> — {n} nowych mieszkań\n\n","sk":"📰 <b>Denný prehľad</b> — {n} nových bytov\n\n","es":"📰 <b>Resumen diario</b> — {n} pisos nuevos\n\n"},
+}
+
+
+def T(key: str, lang: str = "en") -> str:
+    row = _S.get(key)
+    if row is None:
+        return key
+    return row.get(lang) or row.get("en") or key
+
+
+def get_lang(s: dict) -> str:
+    return s.get("lang", "en")
