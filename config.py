@@ -2,8 +2,9 @@
 # Змінюй ці значення під свої потреби
 
 # Telegram
-TG_BOT_TOKEN = "8905140234:AAF823MULxfJzO3zCtf_4psFspfgZ6soVJo"
-TG_CHAT_ID   = 874093938
+import os
+TG_BOT_TOKEN = os.getenv("TG_BOT_TOKEN", "")
+TG_CHAT_ID   = int(os.getenv("TG_CHAT_ID", "0"))
 
 # Тип угоди: "rent" або "sale"
 DEAL_TYPE = "rent"
